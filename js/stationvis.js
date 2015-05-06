@@ -243,7 +243,7 @@ StationVis.prototype.updateVis = function(id) {
     // HOURLY WHEN
     // ***************
     // timesvg
-    var timeColor = ["crimson","lightgreen"];
+    var timeColor = ["lightgreen","crimson"];
 
     var ratesArr = this.stationData[id].overall.hourly.map(function (e,i) { return {x:i,y:e.a }})
     var ratesDep = this.stationData[id].overall.hourly.map(function (e,i) { return{x:i,y:e.d }})
