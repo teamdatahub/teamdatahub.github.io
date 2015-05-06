@@ -51,6 +51,10 @@ a:hover, a:focus {
     text-decoration: none;
 }
 
+.green{
+ color: #399F2E;
+}
+
 .tabs-style-flip nav a:hover,
 .tabs-style-flip nav a:focus,
 .tabs-style-flip nav li.tab-current a {
